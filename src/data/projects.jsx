@@ -1,28 +1,26 @@
 import React from "react";
-import { FaPython } from "react-titles/fa";
-import { FaGoogle } from "react-titles/fa"; 
-import { BiBookBookmark } from "react-titles/bi";
-import { BiData } from "react-titles/bi";
+import img1 from '../images/img1.png'
+import img2 from '../images/img2.png'
+import img3 from '../images/img3.png'
+
 
 export default [
   {
-    imgUrl: "Tecnologia Superior de Desarrollo en Software EPN",
-	  title: <BiBookBookmark className="w-full h-full" />,
-	  tech: "2020 - Actulidad",
+    imgUrl: img1,
+	  title: "FrontendMentor",
+	  tech: "Creacion de cartas con CSS",
+    url: "https://github.com/Jeant10/TallerGrid_Grupo5"
   },
   {
-    imgUrl: "Certificado Cisco Practico de MySQL",
-    title: <BiData className="w-full h-full" />,
-	tech: "2020 - 2021",
+    imgUrl: img2,
+	  title: "React Fundamentals",
+	  tech: "Login Creado con React",
+    url: "https://github.com/ItsgabrielJT/React_Fundamentos.git"
   },
   {
-    imgUrl: "Certificado Cisco Profesional de Python",
-    title: <FaPython className="w-full h-full" />,
-	tech: "2021 - 2021",
-  },
-  {
-    imgUrl: "Certificado Goolge Fundamentos de Three Js",
-    title: <FaGoogle className="w-full h-full" />,
-	tech: "2021 - 2021",
+    imgUrl: img3,
+	  title: "Huddle landing page",
+	  tech: "FrotendMentor Landing page",
+    url: "https://github.com/ItsgabrielJT/Taller2_Grupo5"
   },
 ];
