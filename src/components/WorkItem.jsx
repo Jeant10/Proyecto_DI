@@ -2,14 +2,17 @@ import React from 'react';
 
 function WorkItem({ imgUrl, title, tech, url}) {
 	return (
-		<div className="card bg-slate-300 hover:bg-slate-200 dark:bg-sky-700dark:hover:bg-sky-500 hover:-translate-y-2 transform transition rounded-md p-2 text-center">
-			<img src={imgUrl}>
-			</img>
-			<h1 className="font-bold text-lg text-gray-600 dark:text-gray-800 mb-1 pt-6">
-				{title}
-			</h1>
-			<p className="text-md text-gray-600 dark:text-gray-800 pb-8">{tech}</p>
-			<a href={url} className="outline outline-offset-2 outline-2"> Go to work</a>
+		<div class="card card-side bg-green-400 grid grid-cols-2 gap-2 rounded-2xl">
+			<figure><img src={imgUrl} alt="Movie" className="w-60 md:w-96 p-3"/></figure>
+			<div class="card-body">
+				<h2 class="card-title">{title}</h2>
+				<p>{tech}</p>
+				<div class="card-actions justify-end">
+					<button class="btn btn-primary p-4">
+						<a href={url} className="outline outline-offset-2 outline-2 rounded-2xl"> Go to work</a>
+					</button>
+				</div>
+			</div>
 		</div>
 	);
 }

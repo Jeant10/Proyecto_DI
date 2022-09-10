@@ -7,7 +7,7 @@ function Skills() {
 	return (
 		<div className="py-12">
 			<SectionTitle>Habilidades</SectionTitle>
-			<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+			<div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-5">
 				{skills.map(skill => (
 					<SkillsItem
 						key={skill.title}

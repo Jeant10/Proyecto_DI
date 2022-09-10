@@ -10,6 +10,7 @@ export default [
 	  title: "FrontendMentor",
 	  tech: "Creacion de cartas con CSS",
     url: "https://github.com/Jeant10/TallerGrid_Grupo5"
+
   },
   {
     imgUrl: img2,
